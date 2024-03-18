@@ -1,6 +1,6 @@
 {
-  "name": "ticketing-system-project",
-  "version": "0.1.0",
+  "name": "vue2-base-project",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",

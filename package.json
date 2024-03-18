@@ -1,0 +1,26 @@
+{
+  "name": "project_template",
+  "version": "1.0.0",
+  "description": "项目模板仓库",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --write ./project.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liudezhang/project_template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liudezhang/project_template/issues"
+  },
+  "homepage": "https://github.com/liudezhang/project_template#readme",
+  "devDependencies": {
+    "fs-extra": "^11.2.0",
+    "prettier": "3.2.5"
+  }
+}

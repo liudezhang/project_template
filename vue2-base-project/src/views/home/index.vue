@@ -10,9 +10,9 @@ export default {
   data() {
     return {
       msg: "vue2 示例项目",
-    }
+    };
   },
-}
+};
 </script>
 
 <style lang="scss" scoped></style>

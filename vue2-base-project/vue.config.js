@@ -1,10 +1,10 @@
-const { defineConfig } = require("@vue/cli-service")
-const CompressionWebpackPlugin = require("compression-webpack-plugin")
-const WebpackObfuscator = require("webpack-obfuscator")
-const SpeedMeasurePlugin = require("speed-measure-webpack-plugin")
-const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin")
+const { defineConfig } = require("@vue/cli-service");
+const CompressionWebpackPlugin = require("compression-webpack-plugin");
+const WebpackObfuscator = require("webpack-obfuscator");
+const SpeedMeasurePlugin = require("speed-measure-webpack-plugin");
+const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");
 
-const devPlugins = []
+const devPlugins = [];
 
 const prodPlugins = [
   // gzip 压缩
@@ -52,13 +52,13 @@ const prodPlugins = [
       },
     },
   }),
-]
+];
 
 const plugins = Object.assign(
   // 公共插件
   [],
-  process.env.NODE_ENV === "production" ? prodPlugins : devPlugins
-)
+  process.env.NODE_ENV === "production" ? prodPlugins : devPlugins,
+);
 
 module.exports = defineConfig({
   transpileDependencies: true,
@@ -80,7 +80,7 @@ module.exports = defineConfig({
       dataUrlCondition: {
         maxSize: 4 * 1024,
       },
-    })
+    });
     // 设置标题
     // config.plugin("html").tap((args) => {
     //   args[0].title = "测试标题"
@@ -171,4 +171,4 @@ module.exports = defineConfig({
       allowCollectingMemory: true, // 允许缓存可以收集内存中的数据  默认false
     },
   },
-})
+});

@@ -1,16 +1,16 @@
-import Vue from "vue"
-import VueRouter from "vue-router"
+import Vue from "vue";
+import VueRouter from "vue-router";
 
-Vue.use(VueRouter)
+Vue.use(VueRouter);
 
-const routeOptions = [{ path: "/home", name: "home" }]
+const routeOptions = [{ path: "/home", name: "home" }];
 
 const routes = [
   {
     path: "/",
     redirect: "/home",
   },
-]
+];
 
 routeOptions.forEach((route) => {
   routes.push({
@@ -19,13 +19,13 @@ routeOptions.forEach((route) => {
       import(
         /* webpackChunkName: "[request]" */ `@/views/${route.name}/index.vue`
       ),
-  })
-})
+  });
+});
 
-console.log(routes, "routes")
+console.log(routes, "routes");
 
 const router = new VueRouter({
   routes,
-})
+});
 
-export default router
+export default router;
