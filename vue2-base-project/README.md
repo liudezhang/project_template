@@ -1,4 +1,4 @@
-# ticketing-system-project
+# vue2-base-project
 
 ## Project setup
 
