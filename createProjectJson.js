@@ -11,7 +11,7 @@ const dirsArr = dirs.filter((dir) => {
 });
 
 // 生成项目列表
-const projectList = dirsArr.map((dir) => {
+const projectList = dirsArr.map((dir, index) => {
   const packageJson = fs.readJsonSync(`./${dir}/package.json`, {
     throws: false,
   });
@@ -19,6 +19,7 @@ const projectList = dirsArr.map((dir) => {
   return {
     name: packageJson.name || dir,
     value: packageJson.description || dir,
+    key: index + 1,
     description: packageJson.description || dir,
   };
 });
