@@ -1,7 +1,7 @@
 [
   {
     "name": "uniapp-vue3-vite-ts",
-    "value": "uniapp+vue3+vite+ts 项目模板",
+    "value": "uniapp-vue3-vite-ts",
     "key": 1,
     "description": "uniapp+vue3+vite+ts 项目模板"
   },
@@ -9,6 +9,6 @@
     "name": "vue2-base-project",
     "value": "vue2-base-project",
     "key": 2,
-    "description": "vue2-base-project"
+    "description": "vue2-base-project 项目模板"
   }
 ]

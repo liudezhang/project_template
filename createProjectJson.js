@@ -18,7 +18,7 @@ const projectList = dirsArr.map((dir, index) => {
 
   return {
     name: packageJson.name || dir,
-    value: packageJson.description || dir,
+    value: packageJson.name || dir,
     key: index + 1,
     description: packageJson.description || dir,
   };

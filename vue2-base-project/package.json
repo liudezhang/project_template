@@ -1,6 +1,7 @@
 {
   "name": "vue2-base-project",
   "version": "1.0.0",
+  "description": "vue2-base-project 项目模板",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
