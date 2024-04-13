@@ -25,4 +25,4 @@ const projectList = dirsArr.map((dir, index) => {
 });
 
 // 写入文件
-fs.writeJsonSync("./project.json", projectList);
+fs.writeJsonSync("./project.json", projectList,{spaces: 2});

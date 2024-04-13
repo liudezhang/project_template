@@ -1,0 +1,25 @@
+{
+  "name": "vitepress-template",
+  "version": "1.0.0",
+  "description": "vitepress template",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev config",
+    "docs:build": "vitepress build config",
+    "docs:preview": "vitepress preview config"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^20.12.5",
+    "fs-extra": "^11.2.0",
+    "sass": "^1.74.1",
+    "vitepress": "^1.0.2"
+  },
+  "dependencies": {
+    "medium-zoom": "^1.1.0",
+    "vue": "^3.4.21"
+  }
+}

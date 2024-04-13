@@ -1,0 +1,63 @@
+{
+  "/example/": [
+    {
+      "text": "One",
+      "link": "/example/one/",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "这是二级目录",
+          "link": "/example/one/one-one/",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "这是三级目录",
+              "link": "/example/one/one-one/one-one-one/",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "这是四级文件",
+                  "link": "/example/one/one-one/one-one-one/one-one-one-one.md"
+                },
+                {
+                  "text": "这是四级文件",
+                  "link": "/example/one/one-one/one-one-one/one-one-one-two.md"
+                }
+              ]
+            },
+            {
+              "text": "这是三级文件",
+              "link": "/example/one/one-one/one-one-two.md"
+            },
+            {
+              "text": "这是三级文件",
+              "link": "/example/one/one-one/one-one-three.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Two",
+      "link": "/example/two/",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "这是二级目录",
+          "link": "/example/two/two-one.md"
+        }
+      ]
+    },
+    {
+      "text": "Three",
+      "link": "/example/three/",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "这是二级目录",
+          "link": "/example/three/three-one.md"
+        }
+      ]
+    }
+  ]
+}
