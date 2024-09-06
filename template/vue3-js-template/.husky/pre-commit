@@ -1,0 +1,5 @@
+echo 预提交钩子开始执行......
+
+pnpm exec lint-staged
+
+echo 预提交钩子执行结束
