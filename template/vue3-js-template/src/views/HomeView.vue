@@ -4,7 +4,7 @@
 
 <script setup>
 defineOptions({
-  name: 'HomeView',
+  name: 'HomeView'
 })
 </script>
 

@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "lint": "eslint . --fix",
     "format": "prettier --write src/",
-    "commit": "czg",
+    "commit": "cz",
     "stylelint": "stylelint \"**/*.{css,scss,vue,html}\" --fix --custom-formatter stylelint-formatter-pretty",
     "prepare": "husky"
   },

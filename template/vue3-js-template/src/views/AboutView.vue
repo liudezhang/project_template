@@ -4,7 +4,7 @@
 
 <script setup>
 defineOptions({
-  name: 'AboutView',
+  name: 'AboutView'
 })
 </script>
 
